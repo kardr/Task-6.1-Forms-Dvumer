@@ -48,7 +48,7 @@ namespace Task_6._1_Forms_Dvumer
             }
             catch (Exception E)
             {
-                textBox2.Text += E.Message;
+                MessageBox.Show(E.Message);
             }
 
         }
